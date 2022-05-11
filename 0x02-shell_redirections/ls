@@ -1,0 +1,9 @@
+./misc.test/no10test/hello
+./misc.test/no10test/hello_again
+./misc.test/no10test/test_directory/hello
+./misc.test/no10test/test_directory/hello_again
+./misc.test/test.js
+./misc.test/another_empty_file.test
+./empty_file.test
+./ls
+./empty.test
