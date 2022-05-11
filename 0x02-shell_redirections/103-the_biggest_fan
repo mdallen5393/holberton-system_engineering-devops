@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, World"
+cut -f1 | sort | uniq -c | sort -rg | head -11 | rev | cut -d' ' -f1 | rev
