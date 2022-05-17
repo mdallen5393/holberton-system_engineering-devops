@@ -1,2 +1,23 @@
 #!/bin/bash
-
+# Script that displays number 1 to 100 and Fizz, Buzz, or FizzBuzz when
+# the numbers are multiples of 3, 5, or both, respectively.
+for ((i=1; i<=100; i++))
+do
+	isDivisible=0
+	if [ $((i % 3)) -eq 0 ]
+	then
+		printf "Fizz"
+		isDivisible=1
+	fi
+	if [ $((i % 5)) -eq 0 ]
+	then
+		printf "Buzz"
+		isDivisible=1
+	fi	
+	if [ $isDivisible -eq 0 ]
+	then
+		echo $i
+	else
+		printf "\n"
+	fi
+done
