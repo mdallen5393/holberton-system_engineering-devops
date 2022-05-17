@@ -1,3 +1,4 @@
 #!/bin/bash
-#
+# Script that displays the visitor IP along with the HTTP status code from
+# the Apache log file, using awk.
 
