@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script that loops from 1 to 10 and displays "bad luck" "good luck" and
 # "Best School" for the 4th, 8th, and other iterations, respectively.
 

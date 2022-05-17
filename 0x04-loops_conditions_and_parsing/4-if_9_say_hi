@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script that writes a bash script that displays "Best School" 10 times, but
 # for the 9th iteration, displays "Best School" and then "Hi" on a new line.
 

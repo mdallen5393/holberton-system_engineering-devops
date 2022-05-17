@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script that prints Best School 10 times using until.
 i=0
 until [ $i -eq 10 ]

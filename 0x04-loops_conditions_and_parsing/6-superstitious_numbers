@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script that displays numbers 1 to 20 and various bad luck numbers.
 i=0
 while [ $i -lt 20 ]

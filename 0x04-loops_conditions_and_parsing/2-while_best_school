@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #This script prints "Best School" 10 times using a while loop.
 i=0
 while [ $i -lt 10 ]

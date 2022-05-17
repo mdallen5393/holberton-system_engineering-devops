@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script displays time for 12 hours and 59 minutes (hr 0-12, min 1-59) using
 # while.
 hour=0
